@@ -336,8 +336,10 @@ a:hover {
 
     }
     .main .list .item {
-        width: 100px;
-        height: 150px;
+        position: absolute;
+        top: 83%;
+        width: 120px;
+        height: 160px;
     }
 
     .content .btn button {
@@ -345,6 +347,6 @@ a:hover {
         font-size: 14px;
     }
     .arrows{
-        margin-right: 40px;
+        margin-right: 44px;
     }
 }
