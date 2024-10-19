@@ -32,7 +32,7 @@ function resetTimeAnimation() {
 
 
 function showSlider(type) {
-    let sliderItemsDom = list.querySelectorAll('.carousel .list .item')
+    let sliderItemsDom = list.querySelectorAll('.main .list .item')
     if(type === 'next'){
         list.appendChild(sliderItemsDom[0])
         main.classList.add('next')
